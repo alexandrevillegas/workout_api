@@ -28,6 +28,7 @@ async def post(
     return centro_treinamento_out
     
     
+    
 @router.get(
     '/', 
     summary='Consultar todos os centros de treinamento',

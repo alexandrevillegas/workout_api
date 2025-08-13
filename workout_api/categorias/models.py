@@ -3,6 +3,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from workout_api.contrib.models import BaseModel
 
 
+
 class CategoriaModel(BaseModel):
     __tablename__ = 'categorias'
 

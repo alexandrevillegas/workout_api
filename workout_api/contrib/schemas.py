@@ -9,6 +9,7 @@ class BaseSchema(BaseModel):
         from_attributes = True
 
 
+
 class OutMixin(BaseSchema):
     id: Annotated[UUID4, Field(description='Identificador')]
     created_at: Annotated[datetime, Field(description='Data de criação')]         
